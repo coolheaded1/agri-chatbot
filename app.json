@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.coolheaded.agricchatbot"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.coolheaded.agricchatbot"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "f1de48a5-b78c-4dde-9b89-af8910b81cb0"
+      }
     }
   }
 }
